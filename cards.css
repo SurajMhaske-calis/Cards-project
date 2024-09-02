@@ -1,0 +1,107 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.container{
+    width:100vw;
+    height:100vh;
+    border:2px solid darkcyan;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(188, 234, 218);
+}
+
+.card{
+    height:400px;
+    width:300px;
+    display:flex;
+    flex-direction:column;
+    background-color:rgba(255, 255, 255, 0.715);
+    border-radius:15px;
+    align-items:center;
+    gap:15px;
+}
+
+.card img{
+    height:30%;
+    width:100%;
+    border-radius:15px 15px 0px 0px; 
+}
+
+.textbox{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    width:86%;
+    align-items:center;
+    text-align:center;
+}
+
+.amtbox{
+    width:80%;
+    height:10%;
+    border-radius:7px;
+    background-color:rgb(150, 194, 232);
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.leftbox{
+    display:flex;
+    height:100%;
+    width:70%;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+#imgbox{
+    height:100%;
+    width:30%;
+
+}
+
+#imgbox img{
+    height:85%;
+    width:70%;
+    margin-left:5px;
+    margin-top:3px;
+}
+
+.rightbox{
+    width:30%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightbox a{
+    text-decoration:none;
+}
+
+#paybtn{
+    width:80%;
+    height:9%;
+    background-color:rgb(143, 68, 11);
+    border-radius:7px;
+    border:none;
+    color: #fff;
+    box-shadow:3px 3px 7px rgb(101, 101, 101);
+}
+
+.canclebox a{
+    text-decoration:none;
+    font-weight:bold;
+    color:rgb(134, 132, 132);
+}
+
+.canclebox a:hover{
+    color:black;
+    transition:0.5s ease;
+}
+
